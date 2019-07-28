@@ -19,7 +19,7 @@ public class App {
         System.out.println("!欢迎尝试Driverless car!");
         System.out.println();
         System.out.println("首先我们需要初始化汽车, 请按照指令进行.");
-        System.out.println("按顺序指定长方形地图边界(startX, endX, startY, endY), 以逗号隔开():");
+        System.out.println("按顺序指定长方形地图边界(startX, endX, startY, endY), 以逗号隔开:");
         String tmp = scanner.nextLine();
         String[] tmpMap = tmp.split(",");
         RectangularMap map = new CarPark(
