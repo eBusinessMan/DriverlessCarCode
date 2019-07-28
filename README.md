@@ -25,8 +25,9 @@
   * 环境准备: jdk1.8
   * 由于在工程中采用lombok包,所以IDE(eclipse/Ideaj)需要安装lombok插件.
   * 导入工程后, run/debug执行com.hsbc.App即可.
-  
-  
+  示意图:
+  ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/GameExample.png)
+    
   
 # 工程代码分析
   ### 方向枚举--com.hsbc.common.DirectionEnum <br/>
