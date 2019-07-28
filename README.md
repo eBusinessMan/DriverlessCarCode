@@ -16,18 +16,23 @@
   <br/>故为了简化,约定:<br/>
     car行驶到一个位置只能顺时针转动一个方向, 如果转方向后指向长方形停车场边界则可以继续转动直到不指向长方形停车场边界为止.<br/>
   
+  ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/GameExample.png)
+      <br/>
+    
   扩展性考虑:<br/>
   * 为适应各种场景, "长方形停车场的长宽"采用坐标形式划定更灵活:(起始X,结束X,起始Y,结束Y), 故:长度=结束X - 起始X, 宽度=结束Y - 起始Y.
   * 需求将来可能会改成"在长方形停车场中逆时针方向". 我们代码应该要应对这类需求变动.(在本答案中附带了逆时针方向的功能)
     
 # 实现
-  本答案以一个基于控制台的交互型小游戏呈现:自动驾驶汽车
+  本答案以一个基于控制台的交互型程序呈现:自动驾驶汽车
   * 环境准备: jdk1.8
   * 由于在工程中采用lombok包,所以IDE(eclipse/Ideaj)需要安装lombok插件.
-  * 导入工程后, run/debug执行com.hsbc.App即可.
-  示意图:
+  * 导入工程后, run/debug执行com.hsbc.App即可.<br/>
+  操作示例图:
   ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/GameExample.png)
-    
+    <br/>
+   Tips: 
+   * 通过打印的行驶轨迹,可以判断程序是否按照顺顺时针方向.<br/>
   
 # 工程代码分析
   ### 方向枚举--com.hsbc.common.DirectionEnum <br/>
