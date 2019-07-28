@@ -17,7 +17,7 @@
     car行驶到一个位置只能顺时针转动一个方向, 如果转方向后指向长方形停车场边界则可以继续转动直到不指向长方形停车场边界为止.<br/>
   
   如下图举例:<br/>
-    ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/GameExample.png)
+    ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/carRunExample.png)
       <br/>
   
   举例I:  
