@@ -68,7 +68,6 @@ public abstract class AbstractCar implements Car {
             }
 
             if (this.o == firstDirection) {
-                System.out.println("    ....");
                 break;
             }
 
