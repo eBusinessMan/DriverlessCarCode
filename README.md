@@ -9,7 +9,7 @@
   * Consider OO modeling for the application
   * Keep minimal and viable for the final workable application
    
-# 我的分析
+# 需求分析
   我认为这是一条开放性的题目. 参考样例, 我认为只要满足上述的一系列要求, 可以适当发挥.<br/>
   关键点:<br/>
   * car在长方形停车场的行驶轨迹要符合顺时针方向. 如果car在同一个位置转动多次后再前进的话, 就可能没法形成顺时针的行驶轨迹. 
