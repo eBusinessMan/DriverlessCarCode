@@ -30,10 +30,12 @@
   
 # 工程代码分析
   ### 方向枚举--com.hsbc.common.DirectionEnum <br/>
-   NORTH(0, "N"), EAST(1, "E"), SOUTH(2, "S"), WEST(3, "W"); <br/>
   要求:<br/>
   * 相邻的方向的声明顺序也相邻 <br/>
   * 此处要求是顺时针方向声明顺序 <br/>
+     ```java
+          NORTH(0, "N"), EAST(1, "E"), SOUTH(2, "S"), WEST(3, "W");
+    ```
  
   ### 汽车接口--com.hsbc.car.Car <br/>
   基本命令类型:<br/>
