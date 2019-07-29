@@ -48,17 +48,17 @@
   本答案以一个基于控制台的交互型程序呈现:自动驾驶汽车
   * 环境准备: jdk1.8
   * 由于在工程中采用lombok包,所以IDE(eclipse/Ideaj)需要安装lombok插件.
-  * 导入工程后, run/debug执行com.hsbc.App即可.<br/>
+  * 导入工程后, run/debug执行com.hsbc.App按照提示操作即可.<br/>
+    Tips:见下面示例图,显然是符合文头题目所说的以下要求的: 
+      * 通过打印的行驶轨迹,可以判断程序是否按照顺时针方向.<br/>
+      * 长方形停车场的长宽可配置.
+      * car时刻记录自己的当前坐标和当前方向.
+      * car可以往当前方向一直前进,直到遇见长方形停车场的边界.
+      * car一旦行驶到触碰长方形停车场的边界, 仍然往前行驶则抛异常.
+    <br/>
   操作示例图:
   ![image](https://github.com/eBusinessMan/DriverlessCarCode/blob/master/src/main/resources/pic/GameExample.png)
     <br/>
-  Tips:见上图,显然是符合文头题目所说的以下要求的: 
-    * 通过打印的行驶轨迹,可以判断程序是否按照顺顺时针方向.<br/>
-    * 长方形停车场的长宽可配置.
-    * car时刻记录自己的当前坐标和当前方向.
-    * car可以往当前方向一直前进,直到遇见长方形停车场的边界.
-    * car一旦行驶到触碰长方形停车场的边界, 仍然往前行驶则抛异常.
-  <br/>
   
 # 工程代码分析
   ### 方向枚举--com.hsbc.common.DirectionEnum <br/>
